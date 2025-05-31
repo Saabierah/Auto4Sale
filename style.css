@@ -1,9 +1,26 @@
+/* *************************************************************************************************** */
+/* Univerasl Styles                                                                                    */
+/* *************************************************************************************************** */
+
 body{
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+
+/* *************************************************************************************************** */
+/* Header and Menu                                                                                     */
+/* *************************************************************************************************** */
 
 #header {
   display: flex;
@@ -49,7 +66,12 @@ body{
 #menu a:hover{
     background-color: #eae9e9;
     color: #1b1414;
+    border-radius: 5px;
 }
+
+/* *************************************************************************************************** */
+/* Banner                                                                                              */
+/* *************************************************************************************************** */
 
 #banner{
     height: 400px;
@@ -58,4 +80,124 @@ body{
 #banner img{
     width: 100%;
     height: 400px;
+}
+
+/* *************************************************************************************************** */
+/* Page                                                                                                */
+/* *************************************************************************************************** */
+
+#page{
+    min-height: 400px;
+    padding: 30px;
+}
+
+#page h2{
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    color: red;
+}
+
+/* CONTENT */
+
+#content{
+    float: right;
+    width: 80%;
+}
+
+#content p{
+    text-align: justify;
+}
+
+/* SIDEBAR */
+
+#sidebar{
+    float: left;
+    width: 20%;
+}
+
+/* Lists */
+
+ul.styled{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.styled li{
+    border-top: solid 1px #e5e5e5;
+    padding: 14px 0px;
+}
+
+/* *************************************************************************************************** */
+/* Footer                                                                                              */
+/* *************************************************************************************************** */
+
+#footer{
+    width: 100%;
+    height: 270px;
+    background-color: #1b1414;
+    padding-top: 25px;
+    padding-left: 22px;
+    clear: both;
+}
+
+#footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+#footer p{
+    color: #adadad;
+}
+
+#footer a{
+    color: #adadad;
+}
+
+
+#box1{
+    float: left;
+    width: 30%;
+    padding-right: 30px;
+}
+
+#box2{
+    float: left;
+    width: 30%;
+    padding-right: 30px;
+}
+
+#box3{
+    float: right;
+    width: 30%;
+    padding-left: 30px;
+}
+
+#box3 img{
+    width: 48px;
+    height: 48px;
+}
+
+/* *************************************************************************************************** */
+/* Copyright                                                                                           */
+/* *************************************************************************************************** */
+
+#copyright{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: #ee1521;
+    padding-top: 55px;
+    clear: both;
+}
+
+#copyright p{
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ffffff;
 }
