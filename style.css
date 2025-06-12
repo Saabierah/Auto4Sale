@@ -87,8 +87,9 @@ a:hover{
 /* *************************************************************************************************** */
 
 #page{
-    min-height: 400px;
+    min-height: 600px;
     padding: 30px;
+    border: 1px solid blue;
 }
 
 #page h2{
@@ -109,6 +110,33 @@ a:hover{
 #content p{
     text-align: justify;
 }
+
+/* FEATURED VEHICLES */
+
+#featured {
+    border: 1px solid blue;
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#featured > a {
+    width: 32%;
+    text-decoration: none;
+}
+
+#featured > a > div {
+    border: 1px solid red; 
+}
+
+#featured img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
 
 /* SIDEBAR */
 
