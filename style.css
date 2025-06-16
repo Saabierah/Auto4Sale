@@ -87,9 +87,8 @@ a:hover{
 /* *************************************************************************************************** */
 
 #page{
-    min-height: 600px;
+    min-height: 400px;
     padding: 30px;
-    border: 1px solid blue;
 }
 
 #page h2{
@@ -114,11 +113,11 @@ a:hover{
 /* FEATURED VEHICLES */
 
 #featured {
-    border: 1px solid blue;
     display: flex;
     gap: 15px;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
 #featured > a {
@@ -163,7 +162,7 @@ ul.styled li{
 /* *************************************************************************************************** */
 
 #footer{
-    width: 100%;
+    width: auto;
     height: 270px;
     background-color: #1b1414;
     padding-top: 25px;
@@ -202,7 +201,7 @@ ul.styled li{
 #box3{
     float: right;
     width: 30%;
-    padding-left: 30px;
+    
 }
 
 #box3 img{
